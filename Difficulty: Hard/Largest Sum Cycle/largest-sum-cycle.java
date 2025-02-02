@@ -135,9 +135,10 @@ class Solution{
             // Calculate the sum of the nodes in the strongly connected component
             for(int x : li)
                 sum += (x * 1l);
-            res = Math.max(sum, res); // Update the result if the sum is larger
+            res = Math.max(sum, res); 
         }
         
         return res;
     }
 }
+
